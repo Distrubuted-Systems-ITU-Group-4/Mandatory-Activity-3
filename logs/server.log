@@ -1,2 +1,99 @@
-[Server] 2026/10/24 15:44:45.283460 event=SERVER_START port=5050
-[Server] 2026/10/24 15:46:00.783251 event=SERVER_SHUTDOWN
+[Server] 2026/10/24 16:03:12.551625 event=SERVER_START port=5050
+[Server] 2026/10/24 16:03:30.652364 event=CLIENT_CONNECT client=Sebastian lamport=2
+[Server] 2026/10/24 16:03:30.652415 event=BROADCAST_JOIN client=Sebastian lamport=3
+[Server] 2026/10/24 16:03:30.652458 event=DELIVER client=Sebastian sender=Server lamport=3
+[Server] 2026/10/24 16:03:42.042735 event=CLIENT_CONNECT client=Lars lamport=4
+[Server] 2026/10/24 16:03:42.042787 event=BROADCAST_JOIN client=Lars lamport=5
+[Server] 2026/10/24 16:03:42.042820 event=DELIVER client=Lars sender=Server lamport=5
+[Server] 2026/10/24 16:03:42.042829 event=DELIVER client=Sebastian sender=Server lamport=5
+[Server] 2026/10/24 16:03:48.556329 event=CLIENT_CONNECT client=Alexander lamport=6
+[Server] 2026/10/24 16:03:48.556382 event=BROADCAST_JOIN client=Alexander lamport=7
+[Server] 2026/10/24 16:03:48.556414 event=DELIVER client=Alexander sender=Server lamport=7
+[Server] 2026/10/24 16:03:48.556437 event=DELIVER client=Lars sender=Server lamport=7
+[Server] 2026/10/24 16:03:48.556443 event=DELIVER client=Sebastian sender=Server lamport=7
+[Server] 2026/10/24 16:04:12.542491 event=PUBLISH_RECEIVED client=Sebastian lamport=10 text="hi"
+[Server] 2026/10/24 16:04:12.542536 event=BROADCAST_MESSAGE client=Sebastian lamport=11
+[Server] 2026/10/24 16:04:12.542614 event=DELIVER client=Alexander sender=Sebastian lamport=11
+[Server] 2026/10/24 16:04:12.542647 event=DELIVER client=Lars sender=Sebastian lamport=11
+[Server] 2026/10/24 16:04:12.542750 event=DELIVER client=Sebastian sender=Sebastian lamport=11
+[Server] 2026/10/24 16:04:49.269753 event=CLIENT_DISCONNECT client=Alexander lamport=14
+[Server] 2026/10/24 16:04:49.269800 event=BROADCAST_LEAVE client=Alexander lamport=15
+[Server] 2026/10/24 16:04:49.269829 event=DELIVER client=Lars sender=Server lamport=15
+[Server] 2026/10/24 16:04:49.269855 event=DELIVER client=Sebastian sender=Server lamport=15
+[Server] 2026/10/24 16:05:04.064892 event=CLIENT_CONNECT client=Bob lamport=17
+[Server] 2026/10/24 16:05:04.065005 event=BROADCAST_JOIN client=Bob lamport=18
+[Server] 2026/10/24 16:05:04.065041 event=DELIVER client=Bob sender=Server lamport=18
+[Server] 2026/10/24 16:05:04.065066 event=DELIVER client=Lars sender=Server lamport=18
+[Server] 2026/10/24 16:05:04.065099 event=DELIVER client=Sebastian sender=Server lamport=18
+[Server] 2026/10/24 16:05:20.343956 event=PUBLISH_RECEIVED client=Bob lamport=21 text="wazzup guys"
+[Server] 2026/10/24 16:05:20.344020 event=BROADCAST_MESSAGE client=Bob lamport=22
+[Server] 2026/10/24 16:05:20.344084 event=DELIVER client=Sebastian sender=Bob lamport=22
+[Server] 2026/10/24 16:05:20.344099 event=DELIVER client=Lars sender=Bob lamport=22
+[Server] 2026/10/24 16:05:20.344156 event=DELIVER client=Bob sender=Bob lamport=22
+[Server] 2026/10/24 16:05:32.203351 event=PUBLISH_RECEIVED client=Bob lamport=26 text="is bob here"
+[Server] 2026/10/24 16:05:32.203398 event=BROADCAST_MESSAGE client=Bob lamport=27
+[Server] 2026/10/24 16:05:32.203449 event=DELIVER client=Bob sender=Bob lamport=27
+[Server] 2026/10/24 16:05:32.203453 event=DELIVER client=Lars sender=Bob lamport=27
+[Server] 2026/10/24 16:05:32.203453 event=DELIVER client=Sebastian sender=Bob lamport=27
+[Server] 2026/10/24 16:05:41.765717 event=PUBLISH_RECEIVED client=Sebastian lamport=30 text="du mega grim"
+[Server] 2026/10/24 16:05:41.765764 event=BROADCAST_MESSAGE client=Sebastian lamport=31
+[Server] 2026/10/24 16:05:41.765806 event=DELIVER client=Sebastian sender=Sebastian lamport=31
+[Server] 2026/10/24 16:05:41.765821 event=DELIVER client=Bob sender=Sebastian lamport=31
+[Server] 2026/10/24 16:05:41.765836 event=DELIVER client=Lars sender=Sebastian lamport=31
+[Server] 2026/10/24 16:05:48.348570 event=PUBLISH_RECEIVED client=Bob lamport=34 text="fuck dig"
+[Server] 2026/10/24 16:05:48.348615 event=BROADCAST_MESSAGE client=Bob lamport=35
+[Server] 2026/10/24 16:05:48.348655 event=DELIVER client=Sebastian sender=Bob lamport=35
+[Server] 2026/10/24 16:05:48.348672 event=DELIVER client=Lars sender=Bob lamport=35
+[Server] 2026/10/24 16:05:48.348677 event=DELIVER client=Bob sender=Bob lamport=35
+[Server] 2026/10/24 16:05:56.802090 event=PUBLISH_RECEIVED client=Lars lamport=38 text="kom nu guys ikke det der nu"
+[Server] 2026/10/24 16:05:56.802160 event=BROADCAST_MESSAGE client=Lars lamport=39
+[Server] 2026/10/24 16:05:56.802234 event=DELIVER client=Bob sender=Lars lamport=39
+[Server] 2026/10/24 16:05:56.802246 event=DELIVER client=Lars sender=Lars lamport=39
+[Server] 2026/10/24 16:05:56.802273 event=DELIVER client=Sebastian sender=Lars lamport=39
+[Server] 2026/10/24 16:06:02.518125 event=PUBLISH_RECEIVED client=Sebastian lamport=42 text="mb har ikke spist"
+[Server] 2026/10/24 16:06:02.518168 event=BROADCAST_MESSAGE client=Sebastian lamport=43
+[Server] 2026/10/24 16:06:02.518205 event=DELIVER client=Sebastian sender=Sebastian lamport=43
+[Server] 2026/10/24 16:06:02.518232 event=DELIVER client=Lars sender=Sebastian lamport=43
+[Server] 2026/10/24 16:06:02.518241 event=DELIVER client=Bob sender=Sebastian lamport=43
+[Server] 2026/10/24 16:06:06.803926 event=PUBLISH_RECEIVED client=Bob lamport=46 text="okok"
+[Server] 2026/10/24 16:06:06.803973 event=BROADCAST_MESSAGE client=Bob lamport=47
+[Server] 2026/10/24 16:06:06.804020 event=DELIVER client=Bob sender=Bob lamport=47
+[Server] 2026/10/24 16:06:06.804036 event=DELIVER client=Sebastian sender=Bob lamport=47
+[Server] 2026/10/24 16:06:06.804047 event=DELIVER client=Lars sender=Bob lamport=47
+[Server] 2026/10/24 16:06:28.963262 event=CLIENT_DISCONNECT client=Bob lamport=48
+[Server] 2026/10/24 16:06:28.963389 event=BROADCAST_LEAVE client=Bob lamport=49
+[Server] 2026/10/24 16:06:28.963478 event=DELIVER client=Lars sender=Server lamport=49
+[Server] 2026/10/24 16:06:28.963489 event=DELIVER client=Sebastian sender=Server lamport=49
+[Server] 2026/10/24 16:06:37.392699 event=PUBLISH_RECEIVED client=Lars lamport=52 text="holy tror bob crashede"
+[Server] 2026/10/24 16:06:37.392757 event=BROADCAST_MESSAGE client=Lars lamport=53
+[Server] 2026/10/24 16:06:37.392800 event=DELIVER client=Lars sender=Lars lamport=53
+[Server] 2026/10/24 16:06:37.392849 event=DELIVER client=Sebastian sender=Lars lamport=53
+[Server] 2026/10/24 16:06:39.539615 event=PUBLISH_RECEIVED client=Lars lamport=57 text="LOL"
+[Server] 2026/10/24 16:06:39.539676 event=BROADCAST_MESSAGE client=Lars lamport=58
+[Server] 2026/10/24 16:06:39.539731 event=DELIVER client=Lars sender=Lars lamport=58
+[Server] 2026/10/24 16:06:39.539736 event=DELIVER client=Sebastian sender=Lars lamport=58
+[Server] 2026/10/24 16:06:44.845861 event=PUBLISH_RECEIVED client=Sebastian lamport=61 text="fucking shit pc bro"
+[Server] 2026/10/24 16:06:44.845919 event=BROADCAST_MESSAGE client=Sebastian lamport=62
+[Server] 2026/10/24 16:06:44.845968 event=DELIVER client=Sebastian sender=Sebastian lamport=62
+[Server] 2026/10/24 16:06:44.845977 event=DELIVER client=Lars sender=Sebastian lamport=62
+[Server] 2026/10/24 16:06:46.188972 event=PUBLISH_RECEIVED client=Sebastian lamport=66 text="hahahah"
+[Server] 2026/10/24 16:06:46.189036 event=BROADCAST_MESSAGE client=Sebastian lamport=67
+[Server] 2026/10/24 16:06:46.189104 event=DELIVER client=Lars sender=Sebastian lamport=67
+[Server] 2026/10/24 16:06:46.189120 event=DELIVER client=Sebastian sender=Sebastian lamport=67
+[Server] 2026/10/24 16:06:53.583313 event=PUBLISH_RECEIVED client=Lars lamport=70 text="ok jeg smutter så også"
+[Server] 2026/10/24 16:06:53.583356 event=BROADCAST_MESSAGE client=Lars lamport=71
+[Server] 2026/10/24 16:06:53.583404 event=DELIVER client=Lars sender=Lars lamport=71
+[Server] 2026/10/24 16:06:53.583415 event=DELIVER client=Sebastian sender=Lars lamport=71
+[Server] 2026/10/24 16:06:59.106240 event=PUBLISH_RECEIVED client=Lars lamport=75 text="lidt kedeligt uden ham"
+[Server] 2026/10/24 16:06:59.106286 event=BROADCAST_MESSAGE client=Lars lamport=76
+[Server] 2026/10/24 16:06:59.106371 event=DELIVER client=Lars sender=Lars lamport=76
+[Server] 2026/10/24 16:06:59.106377 event=DELIVER client=Sebastian sender=Lars lamport=76
+[Server] 2026/10/24 16:07:07.183742 event=CLIENT_DISCONNECT client=Lars lamport=80
+[Server] 2026/10/24 16:07:07.183798 event=BROADCAST_LEAVE client=Lars lamport=81
+[Server] 2026/10/24 16:07:07.183854 event=DELIVER client=Sebastian sender=Server lamport=81
+[Server] 2026/10/24 16:07:16.188518 event=PUBLISH_RECEIVED client=Sebastian lamport=84 text="damn de gik"
+[Server] 2026/10/24 16:07:16.188569 event=BROADCAST_MESSAGE client=Sebastian lamport=85
+[Server] 2026/10/24 16:07:16.188626 event=DELIVER client=Sebastian sender=Sebastian lamport=85
+[Server] 2026/10/24 16:07:19.762593 event=CLIENT_DISCONNECT client=Sebastian lamport=89
+[Server] 2026/10/24 16:07:19.762641 event=BROADCAST_LEAVE client=Sebastian lamport=90
+[Server] 2026/10/24 16:07:27.933009 event=SERVER_SHUTDOWN

@@ -1,0 +1,5 @@
+[Client] 2026/10/24 16:03:48.519831 event=JOIN client=Alexander lamport=1
+[Client] 2026/10/24 16:03:48.556739 event=RECEIVE client=Alexander sender=Server msg_lamport=7 local_lamport=8 text="Participant Alexander joined Chit Chat at logical time 7"
+[Client] 2026/10/24 16:04:12.542783 event=RECEIVE client=Alexander sender=Sebastian msg_lamport=11 local_lamport=12 text="hi"
+[Client] 2026/10/24 16:04:49.269197 event=LEAVE client=Alexander lamport=13
+[Client] 2026/10/24 16:04:49.270040 event=DISCONNECT client=Alexander reason=left lamport=17

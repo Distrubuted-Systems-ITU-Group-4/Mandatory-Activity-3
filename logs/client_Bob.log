@@ -1,0 +1,13 @@
+[Client] 2026/10/24 16:05:04.027763 event=JOIN client=Bob lamport=1
+[Client] 2026/10/24 16:05:04.065411 event=RECEIVE client=Bob sender=Server msg_lamport=18 local_lamport=19 text="Participant Bob joined Chit Chat at logical time 18"
+[Client] 2026/10/24 16:05:20.343243 event=PUBLISH client=Bob lamport=20 text="wazzup guys"
+[Client] 2026/10/24 16:05:20.344266 event=RECEIVE client=Bob sender=Bob msg_lamport=22 local_lamport=23 text="wazzup guys"
+[Client] 2026/10/24 16:05:32.203035 event=PUBLISH client=Bob lamport=25 text="is bob here"
+[Client] 2026/10/24 16:05:32.203587 event=RECEIVE client=Bob sender=Bob msg_lamport=27 local_lamport=28 text="is bob here"
+[Client] 2026/10/24 16:05:41.765966 event=RECEIVE client=Bob sender=Sebastian msg_lamport=31 local_lamport=32 text="du mega grim"
+[Client] 2026/10/24 16:05:48.348231 event=PUBLISH client=Bob lamport=33 text="fuck dig"
+[Client] 2026/10/24 16:05:48.348813 event=RECEIVE client=Bob sender=Bob msg_lamport=35 local_lamport=36 text="fuck dig"
+[Client] 2026/10/24 16:05:56.802465 event=RECEIVE client=Bob sender=Lars msg_lamport=39 local_lamport=40 text="kom nu guys ikke det der nu"
+[Client] 2026/10/24 16:06:02.518404 event=RECEIVE client=Bob sender=Sebastian msg_lamport=43 local_lamport=44 text="mb har ikke spist"
+[Client] 2026/10/24 16:06:06.803514 event=PUBLISH client=Bob lamport=45 text="okok"
+[Client] 2026/10/24 16:06:06.804147 event=RECEIVE client=Bob sender=Bob msg_lamport=47 local_lamport=48 text="okok"
